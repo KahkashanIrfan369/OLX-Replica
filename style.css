@@ -1,0 +1,553 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{ 
+    position: fixed ;
+    top: 0;
+    background-color: white;
+    width: 100%;
+
+  
+}
+
+#navbar{display: flex;
+    align-items: center;
+    position: relative;
+    margin :2px ; 
+ 
+
+}
+#logo{
+   
+    height: 40px;
+    margin: 10px 12px;
+    
+}
+#logo img{
+    margin: 2px 60px 1px 3px;
+    width: 60px;
+}
+ #navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -30px;
+    width: 100%;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+    
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: blue;
+}
+#navbar ul li a:hover{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black; 
+}
+.box-1{
+    border: 2px solid;
+    width: 20%;
+    margin: 100px;
+    padding: 100px;
+    display: block;
+    height: 20px;
+   
+}
+.navbarone{
+   width: 1900px;
+   margin-top: 150px;
+  
+}
+.navbarone ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+   color: black;
+   font-size: large;
+   padding-right: 5px;
+}
+.h-primary1{
+
+    border: 2px solid;
+    margin: 20px;
+    padding: 22px;
+    border-radius: 8px;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+    height: 20px;
+border-color:rgb(146, 142, 136);
+background: url(drop.jpg) ;
+background-repeat: no-repeat; 
+background-position: right;
+background-size: 35px;
+
+
+} 
+
+
+.h-primary2{
+    border: 2px solid;
+    margin: 20px;
+    padding: 22px;
+    border-radius: 8px;
+    width: 500px;
+    display: flex;
+    font-size: 1.3rem;
+    height: 20px;
+    border-color:rgb(146, 142, 136); 
+    background: url(search.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: right;
+    background-size: contain;
+  
+}
+
+ #home{
+    display: flex;
+  
+
+}
+
+.log{
+    margin: 10px;
+    padding: 20px;
+    width: 35px;
+    height: 10px;
+    color: rgb(25, 70, 55);
+    float: left;
+    font-size: large;
+    font-weight: bold;
+ 
+}
+
+.search{
+    width:60px ;
+    height:50px;
+   padding: 5px;
+   margin: 10px;
+   
+} 
+.navbarone ul li a{
+    padding:5px ;
+    margin: 5px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+ ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding:5px ;
+    margin: 5px ;
+}
+
+h3.heading{
+    
+    font-size :30px; ;
+    color: rgb(23, 41, 47);
+    margin-left: 30px;
+}
+
+.allpic {font-size: 15px;
+          display: flex;
+          flex-direction: row;
+          width: 40px; 
+          margin: 20px;
+          padding: 10px 
+        
+}
+.allpic2 {font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 40px; 
+    margin: 20px;
+    padding: 10px 
+  
+}
+.allpic3 {font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 40px; 
+    margin: 5px;
+    padding: 5px 
+  
+}
+.pics{
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin:5px 6px;
+    padding:10px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(135, 144, 140);
+    
+}
+
+.btn{padding: 6px 20px;
+    border: 2px solid black;
+   border-radius: 10px;
+    color: black;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer  ;
+
+}
+.btnsell{padding: 2px 5px;
+    width: 100px;
+    border: 6px solid;
+    border-radius: 100px;
+    margin: 18px;
+    font-size: large ;
+    cursor: pointer  ;
+    border-left-color:rgb(246, 194, 49) ;
+    border-right-color:rgb(20, 228, 255)  ;
+    border-bottom-color: rgb(9, 81, 182);
+    border-top-color:rgb(108, 240, 47);
+
+   
+}
+.listend{
+  font-size: large;
+  background-color: rgb(206, 238, 234);
+   height: 400px;
+}
+th{
+    color: rgb(53, 49, 49);
+    padding-right: 10px;
+    margin: 10px;
+    
+}
+
+td{
+    color: rgb(71, 70, 70);
+    padding-left: 30px;
+}
+.btnend{
+    padding: 6px 20px;
+    border: 2px solid black;
+   border-radius: 20px;
+    color: rgb(8, 8, 8);
+    margin: 5px;
+    font-size: 1.5rem;
+    cursor: pointer  ;
+}
+
+.endborder{
+    background-color:rgb(6, 77, 90) ;
+    border: 2px solid ;
+   padding: 20px;
+   display: block;
+border-color: rgb(6, 77, 90) ;
+color: white;
+text-align: right;
+}
+
+
+
+
+@media (max-width:768px ) {
+
+    *{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+    }
+    .header{ 
+        position: fixed ;
+        top: 0;
+        background-color: white;
+        width: 100%;
+    
+      
+    }
+    
+    #navbar{display: flex;
+        align-items: center;
+        position: relative;
+        margin :2px ; 
+     
+    
+    }
+    #logo{
+       
+        height: 40px;
+        margin: 10px 12px;
+        
+    }
+    #logo img{
+        margin: 2px 60px 1px 3px;
+        width: 60px;
+    }
+     #navbar ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: -30px;
+        width: 100%;
+        
+    }
+    #navbar ul li{
+        list-style: none;
+        font-size: 1.2rem;
+        font-family: 'Mochiy Pop P One', sans-serif;
+    }
+        
+    
+    #navbar ul li a{
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: blue;
+    }
+    #navbar ul li a:hover{
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+        background-color: black; 
+    }
+    .box-1{
+        border: 2px solid;
+        width: 20%;
+        margin: 100px;
+        padding: 100px;
+        display: block;
+        height: 20px;
+       
+    }
+    .navbarone{
+     
+       margin: 150px 5px 10px 5px;
+       padding: 5px 3px 2px 1px;
+     
+    }
+    .navbarone ul{
+        width: 200px;
+        margin: 3px;
+        padding: 8px ;
+    }
+    .navbarone li {
+        width: 100%;
+        text-decoration: none;
+        margin: 1px;
+       color: black;
+      
+       padding: 10px;
+    }
+    .h-primary1{
+    
+        border: 2px solid;
+        margin: 20px;
+        padding: 22px;
+        border-radius: 8px;
+        width: 500px;
+        display: flex;
+        text-align: center;
+        font-size: 1.3rem;
+        height: 20px;
+    border-color:rgb(146, 142, 136);
+    background: url(drop.jpg) ;
+    background-repeat: no-repeat; 
+    background-position: right;
+    background-size: 35px;
+    
+   
+    }
+    
+    
+    .h-primary2{
+        border: 2px solid;
+        margin: 20px;
+        padding: 22px;
+        border-radius: 8px;
+        width: 500px;
+        display: flex;
+        font-size: 1.3rem;
+        height: 20px;
+        border-color:rgb(146, 142, 136); 
+        background: url(search.jpg) ;
+        background-repeat: no-repeat; 
+        background-position: right;
+        background-size: 60px;
+      
+    }
+    
+     #home{
+        display: flex;
+        width: 1200px;
+        
+       
+         
+    }
+    
+    .log{
+        margin: 10px;
+        padding: 20px;
+        width: 35px;
+        height: 10px;
+        color: rgb(25, 70, 55);
+        float: left;
+        font-size: large;
+        font-weight: bold;
+     
+        
+    
+    }
+    
+    .search{
+        width:60px ;
+        height:50px;
+       padding: 5px;
+       margin: 10px;
+       
+    } 
+    #navbarone ul li a{
+        
+       
+        padding:5px ;
+        margin: 5px ;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+     ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding:5px ;
+        margin: 5px ;
+    }
+    
+    h3.heading{
+        
+        font-size :30px; ;
+        color: rgb(23, 41, 47);
+        margin-left: 60px;
+    }
+    
+    .allpic {font-size: 15px;
+              display: flex;
+              flex-direction: row;
+              width: 40px; 
+              margin: 20px;
+              padding: 10px 
+            
+    }
+    .allpic2 {font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        width: 40px; 
+        margin: 20px;
+        padding: 10px 
+      
+    }
+    .allpic3 {font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        width: 40px; 
+        margin: 5px;
+        padding: 5px 
+      
+    }
+    .pics{
+        display: flex;  
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin:5px 6px;
+        padding:10px 10px;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: rgb(135, 144, 140);
+        
+    }
+    
+    .btn{
+        padding: 9px 20px;
+        border: 2px solid black;
+       border-radius: 10px;
+        color: black;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        cursor: pointer  ;
+        width: 80px;
+        
+    
+    }
+    .btnsell{padding: 4px 20px;
+        border: 6px solid;
+        border-radius: 100px;
+        margin: 18px;
+        font-size: large ;
+        cursor: pointer  ;
+        border-left-color:rgb(246, 194, 49) ;
+        border-right-color:rgb(20, 228, 255)  ;
+        border-bottom-color: rgb(9, 81, 182);
+        border-top-color:rgb(108, 240, 47);
+    
+       
+    }
+    .listend{
+      font-size: large;
+      background-color: rgb(206, 238, 234);
+      margin: 5px;
+       width: 1400px;
+    }
+    th{
+        color: rgb(53, 49, 49);
+        padding-right: 10px;
+        margin: 10px;
+        
+    }
+    
+    td{
+        color: rgb(71, 70, 70);
+        padding-left: 30px;
+    }
+    .btnend{
+        padding: 6px 20px;
+        border: 2px solid black;
+       border-radius: 20px;
+        color: rgb(8, 8, 8);
+        margin: 5px;
+        font-size: 1.5rem;
+        cursor: pointer  ;
+    }
+    
+    .endborder{
+        background-color:rgb(6, 77, 90) ;
+        border: 2px solid ;
+       padding: 20px;
+       display: block;
+    border-color: rgb(6, 77, 90) ;
+    color: white;
+    text-align: right;
+    } 
+}
+ 
+
